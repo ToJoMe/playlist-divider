@@ -23,3 +23,11 @@ Sometimes users create playlists and save their favorite songs there without any
 ## How it works
 
 The program uses the Spotipy library to access the Spotify API and retrieve the playlist's track information. It then uses the Spotify Web API to get the track information, including the artists' names. The program then extracts the genres of the artists from the Spotify API and creates new playlists based on the genres. Finally, it adds the songs from the original playlist to the corresponding genre playlists.
+
+## Improvements and additional To-Dos
+
+* Addition of proper unit test for the functions
+* Improvement of logic for genre assignment (taking into account all artists or special features of the track)
+* Improvement of logic of playlist creationg by putting special genres into more popular ones
+* Addition of naming feature
+* Addition of loggin and monitoring of the program
